@@ -1,5 +1,5 @@
-#include "point.h"
 #include "complex.h"
+#include "point.h"
 
 /* Catatan: Hasil perkalian float dan int adalah float*/
 
@@ -8,4 +8,3 @@
 COMPLEX PowerCOMPLEX(COMPLEX C, int p);
 
 void TransformPointByComplexPower(POINT *P, COMPLEX C, int n);
-
